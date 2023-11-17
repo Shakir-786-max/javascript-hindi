@@ -13,4 +13,4 @@ AccountCity = "patna"
 
 // console.log( AccountPassword, AccountCity);
 
-console.table([AccountEmail, AccountId, AccountPassword, AccountCity, accountState]);
+console.table([AccountEmail, AccountId, AccountPassword, AccountCity, accountState]); // for get the value in table.
