@@ -2,15 +2,13 @@ const AccountId = 12345
 let AccountEmail = "shakiralam4205@gmail.com"
 var AccountPassword = "258" //prefer not to be used bcoz block issues.
 AccountCity = "jaipur"
+let AccountState ;
 
-let accountState;
+//AccountId = 258  // we can not change constant value
+ 
+AccountEmail = "sh@abc.com"
+AccountPassword = "4563"
+AccountCity ="patna"
 
-// AccountId = 369   // not allowed
-
-AccountEmail = "shakirpatelcivil@gmail.com"
-AccountPassword = "147"
-AccountCity = "patna"
-
-// console.log( AccountPassword, AccountCity);
-
-console.table([AccountEmail, AccountId, AccountPassword, AccountCity, accountState]); // for get the value in table.
+console.log(AccountId);
+console.table([AccountId,AccountEmail,AccountPassword,AccountCity,AccountState])
