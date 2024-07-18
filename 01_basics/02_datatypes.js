@@ -4,9 +4,9 @@
 // console.log(3 + 3); //code readablity should be high.
 // console.log("shakir");
 
-// let name ="shakir"  => string//
-// let age = 25 => Number//
-// let isLoggedIn =true/false =>Boolean.//
+let name ="shakir"  //string//
+let age = 25  //Number//
+let isLoggedIn =true/false //Boolean.//
 
 //Datatypes//
 // Number=> 2 to the power 53.
@@ -19,4 +19,4 @@
 
 //object//
 console.log(typeof null); // object
-console.log(typeof undefined);
+console.log(typeof age);
